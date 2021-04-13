@@ -5,3 +5,8 @@
 .reveal p {
     font-family: serif;
 }
+
+/* bootstrap fix */
+.reveal [hidden] {
+    display: block !important;
+}
