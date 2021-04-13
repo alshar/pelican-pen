@@ -24,18 +24,13 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section data-auto-animate>
-            <h1>Pelican Pen</h1>
+        <section data-external-replace="slides/title.html"> </section>
+
+        <section>
+            <p>Let's start with the numbers</p>
         </section>
-        <section data-auto-animate>
-            <h1>Pelican Pen</h1>
-            <h6>How Greed & Race made Louisiana the world's <span class="text-orange">prison</span> capital</h6>
-        </section>
-        <section data-auto-animate>
-            <h1>Pelican Pen</h1>
-            <h6>How Greed & Race made Louisiana the world's <span class="text-orange">prison</span> capital</h6>
-            <h4>A Visual Essay by Al Sharairi</h4>
-        </section>
+
+
     </div>
 </div>
 
@@ -46,8 +41,8 @@
 <script src="reveal.js/plugin/highlight/highlight.js"></script>
 
 <!-- plugins (chart.js) -->
-<script src="reveal.js-plugins/chart/Chart.min.js"></script>
-<script src="reveal.js-plugins/chart/plugin.js"></script>
+<script src="plugins/reveal.js-plugins/chart/Chart.min.js"></script>
+<script src="plugins/reveal.js-plugins/chart/plugin.js"></script>
 
 
 <script>
@@ -57,6 +52,13 @@
         mouseWheel: true,
 
         plugins: [RevealMarkdown, RevealHighlight, RevealChart],
+        dependencies: [{
+            src: 'plugins/external/external/external.js',
+            condition: function () {
+                return !!document.querySelector('[data-external],[data-external-replace]');
+            }
+        },],
+
     });
 </script>
 </body>
