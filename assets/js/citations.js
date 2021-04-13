@@ -15,9 +15,15 @@ function embedAllCitations() {
 
     [...citationElems].forEach(citationElem => {
         if (citationElem.dataset.citationName in sources) {
+            let source = sources[citationElem.dataset.citationName]
+            let numToDisplay;
 
-            citationElem.href = sources[citationElem.dataset.citationName].url
-            citationElem.innerText = `[${++citationCounter}]`
+            "number" in source
+                ? numToDisplay = source.number
+                : numToDisplay = source.number = ++citationCounter;
+
+            citationElem.href = source.url
+            citationElem.innerText = `[${numToDisplay}]`
         } else {
             alert(`Source key ${citationElem.dataset.citationName} not found in sources`)
         }
