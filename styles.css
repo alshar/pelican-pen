@@ -1,0 +1,9 @@
+.reveal h1 .text-orange,
+.reveal h2 .text-orange,
+.reveal h3 .text-orange,
+.reveal h4 .text-orange,
+.reveal h5 .text-orange,
+.reveal h6 .text-orange,
+.text-orange {
+    color: #F09D51;
+}
