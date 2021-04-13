@@ -1,6 +1,12 @@
 var sources = {
     "total-populations": {
         "url": "https://www.prisonstudies.org/highest-to-lowest/prison-population-total?field_region_taxonomy_tid=All"
+    },
+    "wp-lee": {
+        "url": "https://www.washingtonpost.com/news/fact-checker/wp/2015/04/30/does-the-united-states-really-have-five-percent-of-worlds-population-and-one-quarter-of-the-worlds-prisoners/"
+    },
+    "per-capita": {
+        "url": "https://worldpopulationreview.com/country-rankings/incarceration-rates-by-country"
     }
 }
 
