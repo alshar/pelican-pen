@@ -39,16 +39,25 @@
     </div>
 </div>
 
+
+<!-- reveal -->
 <script src="reveal.js/dist/reveal.js"></script>
 <script src="reveal.js/plugin/markdown/markdown.js"></script>
 <script src="reveal.js/plugin/highlight/highlight.js"></script>
+
+<!-- plugins -->
+<script src="reveal.js-plugins/chart/Chart.min.js"></script>
+<script src="reveal.js-plugins/chart/plugin.js"></script>
+<!-- chart.js -->
+
+
 <script>
     Reveal.initialize({
         hash: true,
         touch: true,
         mouseWheel: true,
 
-        plugins: [RevealMarkdown, RevealHighlight],
+        plugins: [RevealMarkdown, RevealHighlight, RevealChart],
     });
 </script>
 </body>
