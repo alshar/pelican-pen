@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme"/>
 
     <!-- custom -->
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
 
 </head>
 <body>
@@ -44,22 +44,7 @@
 <script src="plugins/reveal.js-plugins/chart/Chart.min.js"></script>
 <script src="plugins/reveal.js-plugins/chart/plugin.js"></script>
 
-
-<script>
-    Reveal.initialize({
-        hash: true,
-        touch: true,
-        mouseWheel: true,
-
-        plugins: [RevealMarkdown, RevealHighlight, RevealChart],
-        dependencies: [{
-            src: 'plugins/external/external/external.js',
-            condition: function () {
-                return !!document.querySelector('[data-external],[data-external-replace]');
-            }
-        },],
-
-    });
-</script>
+<!-- reveal init -->
+<script src="assets/js/reveal-init.js"></script>
 </body>
 </html>
