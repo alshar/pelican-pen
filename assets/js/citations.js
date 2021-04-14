@@ -7,6 +7,9 @@ var sources = {
     },
     "per-capita": {
         "url": "https://worldpopulationreview.com/country-rankings/incarceration-rates-by-country"
+    },
+    "state-by-state": {
+        "url": "https://www.sentencingproject.org/the-facts/#rankings"
     }
 }
 
