@@ -10,6 +10,18 @@ var sources = {
     },
     "state-by-state": {
         "url": "https://www.sentencingproject.org/the-facts/#rankings"
+    },
+    "times-pic": {
+        "url": "https://www.nola.com/news/crime_police/article_8feef59a-1196-5988-9128-1e8e7c9aefda.html"
+    },
+    "bjs-2018": {
+        "url": "https://www.bjs.gov/index.cfm?ty=pbdetail&iid=7026"
+    },
+    "npr-prison-capital": {
+        "url": "https://www.npr.org/2012/06/05/154352977/how-louisiana-became-the-worlds-prison-capital"
+    },
+    "prison-policy-profile": {
+        "url": "https://www.prisonpolicy.org/profiles/LA.html"
     }
 }
 
