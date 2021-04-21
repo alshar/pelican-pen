@@ -22,6 +22,9 @@ var sources = {
     },
     "prison-policy-profile": {
         "url": "https://www.prisonpolicy.org/profiles/LA.html"
+    },
+    "lifers": {
+        "url": "https://www.sentencingproject.org/publications/still-life-americas-increasing-use-life-long-term-sentences/#III.%20Life%20by%20the%20Numbers"
     }
 }
 
