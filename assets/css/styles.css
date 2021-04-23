@@ -10,3 +10,7 @@
 .reveal [hidden] {
     display: block !important;
 }
+
+.reveal a.citation {
+    font-size: smaller;
+}
