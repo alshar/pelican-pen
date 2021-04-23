@@ -25,6 +25,12 @@ var sources = {
     },
     "lifers": {
         "url": "https://www.sentencingproject.org/publications/still-life-americas-increasing-use-life-long-term-sentences/#III.%20Life%20by%20the%20Numbers"
+    },
+    "aclu": {
+        "url": "https://www.laaclu.org/sites/default/files/field_documents/aclu_la_justicecantwaitreport_02102020_online.pdf"
+    },
+    "40-percent": {
+        "url": "https://www.federalreserve.gov/publications/2019-economic-well-being-of-us-households-in-2018-dealing-with-unexpected-expenses.htm"
     }
 }
 
