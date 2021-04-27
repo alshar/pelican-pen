@@ -1,0 +1,39 @@
+.reveal .text-orange {
+    color: #F09D51;
+}
+
+.reveal p {
+    font-family: serif;
+}
+
+/* bootstrap fix */
+.reveal [hidden] {
+    display: block !important;
+}
+
+.reveal a.citation {
+    font-size: small;
+}
+
+.reveal .border-orange {
+    border-color: #F09D51;
+}
+
+.reveal .bg-theme {
+    background-color: #FAF7E4;
+}
+
+.reveal .policy-reccs .card-body {
+    font-size: small;
+}
+
+.reveal .policy-reccs .card-header {
+    font-size: .6em;
+    font-family: serif;
+}
+
+#js-refs {
+    font-size: .4em;
+    font-family: serif;
+}
+
