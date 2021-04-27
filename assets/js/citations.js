@@ -100,7 +100,9 @@ function createRefSlide() {
     sortedSources.forEach(source => {
         refHTML +=
             `
-                <p><a target="_blank" href="${source.url}">[${source.number}] - ${source.display_name}</a></p>
+                <p>
+                    <a target="_blank" href="${source.url}">[${source.number}]: ${source.display_name}, <em>${source.author}</em></a>
+                </p>
             `
     });
 
