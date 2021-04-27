@@ -2,6 +2,8 @@ Reveal.initialize({
     hash: true,
     touch: true,
     mouseWheel: true,
+    minScale: 0.2,
+    maxScale: 2.0,
 
     plugins: [RevealMarkdown, RevealHighlight, RevealChart],
     dependencies: [{
