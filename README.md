@@ -11,6 +11,10 @@ This was around the time I got assigned a final project in my Louisiana History 
 
 I wanted to take the opportunity to turn everything I was reading into an easily-digestible website
 
+This is intended to be a **simple** quick and dirty one-off project.
+So no best practices like using a templating language, front-end framework, or scss
+
+Also, the way I populate the references page and do citation embedding is janky and not sustainable, I'm aware
 ## Credits
 
 * [Hakim El-Hattab](https://twitter.com/hakimel) for the excellent [Reveal.js](https://github.com/hakimel/reveal.js)
