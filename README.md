@@ -2,6 +2,8 @@
 
 A simple Reveal.js presentation on race, greed, and anguish in the Louisiana Prison System
 
+[Full site here](https://alshar.github.io/pelican-pen/)
+
 ## Motivation
 
 I've been listening to [Ear Hustle](https://www.earhustlesq.com/) for some time and went down a research rabbit hole
